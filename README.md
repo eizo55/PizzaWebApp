@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🍕 Pizza Website - Frontend
+This is the frontend of a Pizza Ordering Web App, designed to allow users to explore pizza restaurants, browse menus, add items to their basket, and complete their orders with secure payments. Users can also register and log in to manage their orders.
 
-## Getting Started
+🚀 Features
 
-First, run the development server:
+Home – Landing page with highlights and a quick intro.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+About Us – Information about the service and mission.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Contact – Simple contact form or contact details.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+🔸 User Authentication
+Register – New users can create an account.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Login – Existing users can securely log in.
 
-## Learn More
+🔸 Restaurant Browsing
+Restaurant List – View available pizza restaurants.
 
-To learn more about Next.js, take a look at the following resources:
+Restaurant Page – View each restaurant’s menu and details.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Menu Interaction – Browse and select pizzas and other items to add to your basket.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+🔸 Shopping Basket & Orders
+Basket View – Review selected items, update quantity, or remove items.
 
-## Deploy on Vercel
+Payment – Complete your order and pay securely via the checkout system.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Screenshots:
+1.Main Page
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![mainpage](https://github.com/user-attachments/assets/b67bcbe7-0438-481a-bf59-00cb5456775a)
+
+2.Register
+
+![register](https://github.com/user-attachments/assets/471ad879-2388-4643-996a-42f1e2fa5d78)
+
+
+3.Restaurant View
+
+![resturant view](https://github.com/user-attachments/assets/d22ae8ed-0eff-4706-99aa-6bfd3b8fad0f)
+
+4.Adding to Cart 
+
+![adding to cart](https://github.com/user-attachments/assets/6757044d-9e3d-48cc-a551-d7c0b1cf76d3)
+
+5. basket
+
+![basket](https://github.com/user-attachments/assets/b8a492ab-39a4-4357-bc5c-a8abe984fc96)
+
+
+
+
+📄 License
+This project is licensed under the MIT License.
+
