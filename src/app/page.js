@@ -11,22 +11,22 @@ export default function Home() {
       <section className="text-center my-16" id="about">
         <SectionHeaders mainHeader={"ABOUT US"} />
         <div class="text-gray-500 max-w-md mx-auto mt-4 flex flex-col gap-4">
-          <p>Welcome to our website! Allow us to introduce ourselves:</p>
+          <p>Welcome to my website! Allow me to introduce myself:</p>
           <p>
-            We are Alperen, Ayhem, and Kusai, a dynamic trio of students from
-            Kadir Has University, all passionate about Computer Engineering.
+            I'm Abdulaziz Faham, a passionate Software Engineering graduate from
+            Üsküdar University.
           </p>
           <p>
-            Our mission is simple yet exciting: to revolutionize your pizza
+            My mission is simple yet exciting: to revolutionize your pizza
             experience. Whether you're craving a slice delivered to your
             doorstep with just a few clicks, or you're a pizzeria owner seeking
             a seamless system to manage your orders and expand your customer
-            base, we've got you covered.
+            base, I've got you covered.
           </p>
           <p>
-            With our innovative website, ordering pizza has never been easier or
-            faster. And for pizzeria owners, we offer a comprehensive management
-            system designed for effortless operation and increased
+            With this innovative website, ordering pizza has never been easier
+            or faster. And for pizzeria owners, it offers a comprehensive
+            management system designed for effortless operation and increased
             profitability.
           </p>
         </div>
@@ -38,9 +38,9 @@ export default function Home() {
             className="text-base underline text-gray-500"
             href="tel:+5399293777"
           >
-            +5399293777
+            +49 155 10425715
             <br />
-            kusai_al@stu.khas.edu.tr
+            Abdulazizfahham@outlook.com
           </a>
         </div>
       </section>

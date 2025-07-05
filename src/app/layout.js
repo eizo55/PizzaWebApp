@@ -1,15 +1,15 @@
-import {AppProvider} from "@/components/AppContext";
+import { AppProvider } from "@/components/AppContext";
 import Header from "@/components/layout/Header";
-import { Roboto } from 'next/font/google'
-import './globals.css'
-import {Toaster} from "react-hot-toast";
+import { Roboto } from "next/font/google";
+import "./globals.css";
+import { Toaster } from "react-hot-toast";
 
-const roboto = Roboto({ subsets: ['latin'], weight: ['400', '500', '700'] })
+const roboto = Roboto({ subsets: ["latin"], weight: ["400", "500", "700"] });
 
 export const metadata = {
-  title: 'Pizzata',
-  description: 'Pizzata Next',
-}
+  title: "Pizzata",
+  description: "Pizzata Next",
+};
 
 export default function RootLayout({ children }) {
   return (
@@ -21,11 +21,11 @@ export default function RootLayout({ children }) {
             <Header />
             {children}
             <footer className="border-t p-8 text-center text-gray-500 mt-16">
-              &copy; CREATED BY THE TRIO ALPEREN AYHEM AND KUSAI
+              &copy; CREATED BY ABDULAZIZ FAHAM
             </footer>
           </AppProvider>
         </main>
       </body>
     </html>
-  )
+  );
 }
